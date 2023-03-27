@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Polisen, Händelser</title>
+</head>
+<body>
+    <div id="container">
+        <div id="inputField">
+            <input type="text" id="inputCity">
+        </div>
+        <div class="dropdown">
+            <div id="buttons">
+                <button class="dropbtn">Select event</button>
+                <button id="searchCrimes">Search Crimes</button>
+            </div>
+            <div class="dropdown-content">
+                <a href="#" id="misshandelOption">Misshandel</a>
+                <a href="#" id="rattfylleriOption">Rattfylleri</a>
+                <a href="#" id="OlagaHot">Olaga hot</a>
+                <a href="#" id="Fylleri/LOB">Fylleri/LOB</a>
+                <a href="#" id="Bedrägeri">Bedrägeri</a>
+                <a href="#" id="LarmÖverfall">Larm Överfall</a>
+                <a href="#" id="Knivlagen">Knivlagen</a>
+                <a href="#" id="Rånförsök">Rattfylleri</a>
+                <a href="#" id="Bråk">Bråk</a>
+                <a href="#" id="sjukdomOlycksfall">Sjukdom/olycksfall</a>
+                <a href="#" id="stöldinbrott">Stöld/inbrott</a>
+                <a href="#" id="Fylleri/LOB">Rattfylleri</a>
+                <a href="#" id="Trafikolyckapersonskada">Trafikolycka, personskada</a>
+                <a href="#" id="Räddningsinsats">Räddningsinsats</a>
+                <a href="#" id="Narkotikabrott">Narkotikabrott</a>
+                <a href="#" id="Skyddslagen">Skyddslagen</a>
+                <a href="#" id="Stöldinbrott">Stöld/inbrott</a>
+                <a href="#" id="Rån">Rån</a>
+                <a href="#" id="Trafikolycka">Trafikolycka</a>
+                <a href="#" id="Brand">Brand</a>
+                <a href="#" id="våldhotmottjänsteman">Våld/hot mot tjänsteman</a>
+                <a href="#" id="Misshandelgrov">Misshandel, grov</a>
+                <a href="#" id="skadegörelse">Skadegörelse</a>
+                <a href="#" id="inbrott">Inbrott</a>
+            </div>
+        </div>
+        <div id="inputField">
+            <input type="text" id="selectedParameters" readonly>
+        </div>
+        <div class="cardContainer">
+            <div class="row">
+              <div class="label">ID</div>
+              <div class="value" id="value1">Value 1</div>
+            </div>
+            <div class="row">
+              <div class="label">Date + time</div>
+              <div class="value" id="value2">Value 2</div>
+            </div>
+            <div class="row">
+              <div class="label">Named incident</div>
+              <div class="value" id="value3">Value 3</div>
+            </div>
+            <div class="row">
+              <div class="label">Summary</div>
+              <div class="value" id="value4">Value 4</div>
+            </div>
+            <div class="row">
+              <div class="label">URL</div>
+              <div class="value" id="value5">Value 5</div>
+            </div>
+            <div class="row">
+              <div class="label">Type of incident</div>
+              <div class="value" id="value6">Value 6</div>
+            </div>
+            <div class="row">
+              <div class="label">Location</div>
+              <div class="value" id="value7">Value 7</div>
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
