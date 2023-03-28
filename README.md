@@ -6,3 +6,6 @@ Search for crimes, categorize by crime type, time or city.
 Compare crime statistics between cities.
 
 The UI is in english but the content is in swedish.
+
+
+NOTE: I continued with this project in React instead, in another repository.
